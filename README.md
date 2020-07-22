@@ -1,6 +1,6 @@
 # HAC-Text-Clustering
-It is the HAC algorithm I use to sort newspaper articles by news. You can adapt it to pretty much any type of text.
-HAC means "Hierarchical Agglomerative Clustering", it worked out better for me than KMeans.
+It is the HAC algorithm I use to sort newspaper articles by news. You can adapt it to pretty much any type of text.  
+HAC means "Hierarchical Agglomerative Clustering", it worked out better for me than KMeans.  
 It use the silhouette score to find the best k.
 
 
@@ -21,7 +21,7 @@ main.py
 	Return clusters
 
 
-You might need to adapt few parameters to your type of dataset. Here are some changes that you can try :
+You might need to adapt few parameters to your type of dataset. Here are some changes that you can try :  
 <br/>
 process_text.py  
 Add more stopwords.  
