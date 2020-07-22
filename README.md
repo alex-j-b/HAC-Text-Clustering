@@ -1,14 +1,14 @@
 # HAC-Text-Clustering
-It is the HAC algorithm I use to sort newspaper articles by news. You can adapt it to pretty much any type of text.  
+It is the HAC algorithm that Im using to sort newspaper articles by news. You can adapt it to pretty much any type of text.  
 HAC means "Hierarchical Agglomerative Clustering", it worked out better for me than KMeans.  
-It use the silhouette score to find the best k.
+It uses the silhouette score to find the best k.
 
 
 Table of Contents 
 ---------------------------
 process_text.py
 
-	Tokenize and Stem data to get meaningful list of words in regard to the clusterizer
+	Tokenize and Stem data to get meaningful list of words for the clusterizer.
 	
 silhouette_best_k.py
 
@@ -16,9 +16,9 @@ silhouette_best_k.py
 
 main.py
 
-    Find the best k with silhouette score
-	Apply Hierarchical clustering from the best k
-	Return clusters
+    Find the best k with silhouette score.
+	Apply AgglomerativeClustering with the best k.
+	Return clusters.
 
 
 You might need to adapt few parameters to your type of dataset. Here are some changes that you can try :  
